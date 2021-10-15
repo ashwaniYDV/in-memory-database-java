@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         DatabaseManager databaseManager = new DatabaseManager();
 
-        Database db1 = databaseManager.createDatabase("test");
+        Database db1 = databaseManager.createDatabase("db1");
 
         Table table1 = db1.createTable("students");
         table1.insertEntry("1", new HashMap<String, String>() {{
